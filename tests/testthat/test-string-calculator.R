@@ -1,6 +1,5 @@
 context("Numbers calculation function unit tests")
 
-
 test_that("Test that sum of numbers gives expected result", {
   res <- sumStringNumbers("")
   expect_identical(res, as.integer(0))
@@ -27,3 +26,15 @@ test_that("Test that sum of numbers gives expected result", {
   
 })
 
+context("Test the delimeter functionality")
+
+test_that("Test that the delimeter works", {
+
+  res <- updateDelimeter(";\n2,4,5")
+  expect_identical(res, c(";","2,4,5"))
+  
+  res <- updateDelimeter("[***]\n2,4,5")
+  expect_identical(res, c("***","2,4,5"))
+  
+  
+})
