@@ -2,11 +2,14 @@
 \alias{sumStringNumbers}
 \title{sumStringNumbers}
 \usage{
-sumStringNumbers(s)
+sumStringNumbers(s, delim = ",")
 }
 \arguments{
- \items{s}{
-  A string of numbers delimeted by ,
+ \item{s}{
+  A string of numbers delimeted by ","
+ }
+ \item{delim}{
+  A different dilimeter to be used, default is ","
  }
 }
 \description{
