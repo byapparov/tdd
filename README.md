@@ -32,3 +32,15 @@ install.packages('testthat', 'devtools')
 4. Run tests
   * Via Rstudio console: `devtools::test()`
   * Via **Build -> More -> Test Package** (shortcut: `⇧⌘T`)
+
+
+## Assertions
+
+Explore functions available in `testthat` package to check your code:
+
+```R
+?expect_equal
+?expect_gte
+?expect_true
+?expect_message
+```
