@@ -15,5 +15,6 @@
 
 hello <- function() {
   # Dummy function to make sure that tests work.
-  message("Hello, world!")
+  message("Helo, world!")
 }
+
