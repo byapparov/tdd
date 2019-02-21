@@ -26,11 +26,7 @@ describe("romanToInteger", {
     expect_equal(romanToInteger("XI"), 11)
     expect_equal(romanToInteger("XIII"), 13)
     expect_equal(romanToInteger("XIV"), 14)
-
     expect_equal(romanToInteger("XXXIX"), 39)
-
-
-
   })
 
   it("Works with large numbers", {
