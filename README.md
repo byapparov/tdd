@@ -26,7 +26,8 @@ git clone git@github.com:byapparov/tdd.git
 3. Install testthat and devtools packages in Rstudio:
 
 ```R
-install.packages('testthat', 'devtools')
+install.packages(c('testthat', 'devtools'))
+# choose yes in all prompts
 ```
 
 4. Run tests
